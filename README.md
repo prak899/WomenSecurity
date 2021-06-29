@@ -1,5 +1,5 @@
 # WoSafe
-For saftey of indian womens
+For the safety of Women.
 
 ## Installation
 
