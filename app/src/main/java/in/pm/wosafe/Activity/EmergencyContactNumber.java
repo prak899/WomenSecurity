@@ -33,7 +33,7 @@ import in.pm.wosafe.R;
 
 public class EmergencyContactNumber extends AppCompatActivity {
     Spinner spinner;
-    String[] categorydrop = {"Select Category", "Spouses", "Parents", "Grandparents", "Brothers", "Sisters", "Daughters", "Sons"};
+    String[] categorydrop = {"Select Category", "Spouse", "Parent", "Friend", "Brother", "Sister", "Daughter", "Son"};
     private TextInputEditText Name, Number;
     String number;
     SharedPreferences sharedpreferences;

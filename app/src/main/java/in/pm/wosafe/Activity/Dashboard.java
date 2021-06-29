@@ -1,11 +1,3 @@
-/*
- * Copyright (c) 2021. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
- * Morbi non lorem porttitor neque feugiat blandit. Ut vitae ipsum eget quam lacinia accumsan.
- * Etiam sed turpis ac ipsum condimentum fringilla. Maecenas magna.
- * Proin dapibus sapien vel ante. Aliquam erat volutpat. Pellentesque sagittis ligula eget metus.
- * Vestibulum commodo. Ut rhoncus gravida arcu.
- */
-
 package in.pm.wosafe.Activity;
 
 import android.Manifest;
@@ -112,6 +104,10 @@ public class Dashboard extends AppCompatActivity {
                     new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
                     PERMISSIONS_REQUEST);
         }
+//        if(ContextCompat.checkSelfPermission(this,Manifest.permission.SEND_SMS)==PackageManager.PERMISSION_GRANTED)
+//            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.SEND_SMS}, PERMISSIONS_REQUEST);
+//        if(ContextCompat.checkSelfPermission(this,Manifest.permission.CALL_PHONE)==PackageManager.PERMISSION_GRANTED)
+//            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CALL_PHONE}, PERMISSIONS_REQUEST);
     }
 
 
@@ -268,7 +264,7 @@ public class Dashboard extends AppCompatActivity {
         String AlertMessage= "AM in danger and am here :-"+address+" right now.\n"+
                 state+", "+country+", "+city+", "+postalCode;
 
-        String AlertMessage1= "https://www.google.com/maps/?q="+lat+","+lon;
+        String AlertMessage1= "I am in danger\n"+"https://www.google.com/maps/?q="+lat+","+lon;
 
         try {
             SmsManager smsManager = SmsManager.getDefault();
