@@ -58,8 +58,8 @@
         <TextView
             android:id="@+id/forgot_password"
             style="@style/LabelStyle"
-            android:layout_alignParentEnd="true"
             android:layout_below="@id/et_password"
+            android:layout_alignParentEnd="true"
             android:layout_marginTop="@dimen/layout_in_between_margins"
             android:fontFamily="@font/sf_pro_display_medium"
             android:text="@string/forgot_password"
@@ -67,12 +67,12 @@
             android:textSize="16sp" />
 
         <Button
-            android:onClick="login"
             android:id="@+id/btn_login"
             style="@style/SolidButtonStyle"
             android:layout_width="match_parent"
             android:layout_below="@id/forgot_password"
             android:layout_marginTop="@dimen/layout_in_between_margins"
+            android:onClick="login"
             android:text="@string/login_btn_label" />
 
         <RelativeLayout

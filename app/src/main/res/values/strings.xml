@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">WomenSafety</string>
+    <string name="app_name">Women Security</string>
     <!--Titles-->
     <string name="login_title">Login</string>
     <string name="signup_title">Sign up</string>

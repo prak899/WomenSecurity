@@ -49,12 +49,12 @@
 
 
         <Button
-            android:onClick="signup"
-            android:layout_alignParentBottom="true"
             android:id="@+id/btn_signup"
             style="@style/SolidButtonStyle"
             android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
             android:layout_marginTop="20dp"
+            android:onClick="signup"
             android:text="@string/signup_btn_label" />
 
         <RelativeLayout
